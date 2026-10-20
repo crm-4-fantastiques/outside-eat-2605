@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('../assets/fonts/OpenDyslexic-Regular.otf');
+}
+
+
+:root {
+    --primary-color: #1b296a;
+    --secondary-color: #ed6840;
+    --tertiary-color: #d32f2f;
+    --quaternary-color: #7db9da;
+    --quinary-color: #f6af2e;
+    --senary-color: #488287;
+    --septenary-color: #d32f2f;
+    --octonary-color: #e67e22;
+    --nonary-color: #0288d1;
+    --denary-color: #2e7d32;
+    --pridenary-color: #FDDCCE;
+    --text-color: black;
+    --background-color: white;
+    --primary-font: "Verdana";
+    --secondary-font: "Arial";
+    --tertiary-font: "Gerogia, serif";
+    --quaternary-font: "OpenDyslexic";
+}
+
+html, body {
+    background-color: var(--background-color);
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo--full {
+    width: 70vw;
+    height: auto;
+}
+
+.logo--abridged {
+    width: 20vw;
+    height: auto;
+}
+
+p, h1, h2, h3, figcaption {
+    color: var(--text);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+header p {
+    font-size: 3rem;
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.color-card {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-card p {
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+.primary-color_preview {
+    background-color: var(--primary-color);
+}
+
+.secondary-color_preview {
+    background-color: var(--secondary-color);
+}
+
+.tertiary-color_preview {
+    background-color: var(--tertiary-color);
+}
+
+.quaternary-color_preview {
+    background-color: var(--quaternary-color);
+}
+
+.quinary-color_preview {
+    background-color: var(--quinary-color);
+}
+
+.senary-color_preview {
+    background-color: var(--senary-color);
+}
+
+.septenary-color_preview {
+    background-color: var(--septenary-color);
+}
+
+.octonary-color_preview {
+    background-color: var(--octonary-color);
+}
+
+.nonary-color_preview {
+    background-color: var(--nonary-color);
+}
+
+.denary-color_preview {
+    background-color: var(--denary-color);
+}
+
+.pridenary-color_preview {
+    background-color: var(--pridenary-color);
+}
+
+.primary-font_preview {
+    font-family: var(--primary-font);
+}
+
+
+#fonts h3 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#fonts p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.secondary-font_preview {
+    font-family: var(--secondary-font);
+}
+
+.tertiary-font_preview {
+    font-family: var(--tertiary-font);
+}
+
+.quaternary-font_preview {
+    font-family: var(--quaternary-font);
+}
+
+#primary-button {
+    background-color : var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20rem;
+    height: 6rem;
+    border-radius: 50px;
+    border: none;
+    margin: 1rem;
+}
+
+#secondary-button {
+    background-color : var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20rem;
+    height: 6rem;
+    border-radius: 50px;
+    border: none;
+    margin: 1rem;
+}
+
+.figure-component img{
+    width: 20rem;
+    height: auto;
+}
+
+.figure-icon img {
+    width: 5rem;
+    height: auto;
+}
+
+.table-icon img {
+    width: 5rem;
+    height: auto;
+}
+
+.icon-hover img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
